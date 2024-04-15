@@ -1,0 +1,55 @@
+.footer {
+    background-color: #154C46;
+    box-shadow: 0 0 0 15px #154c465e;
+    height: 300px;
+    width: 100%;
+}
+
+.socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.socialIcons i {
+    font-size: 25px;
+    color: white;
+}
+
+.socialIcons i {
+    transition: color 0.3s ease-in-out;
+}
+
+.socialIcons .icon:hover {
+    color: #e3d8c1de;
+}
+
+.textColor{
+    color: #e3d8c1de;
+    text-align: center;
+}
+.registerBtn{
+    margin-top: 35px;
+    border: 2px solid #e3d8c1de;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.registerBtn:hover{
+    background-color: #e3d8c1de;
+    border: 2px solid transparent;
+    color: white;
+}
+
+.commIcons ul {
+    padding: 0;
+}
+
+.commIcons li {
+    list-style: none;
+    padding: 10px 0;
+    color: white;
+}
+
+.commIcons li i {
+    color: rgb(196 196 121);
+}

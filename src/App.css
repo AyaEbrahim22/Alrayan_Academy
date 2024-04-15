@@ -1,0 +1,44 @@
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #c9c9c9;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #154C46;
+  border-radius: 5px;
+}
+
+body{
+  font-family: "Truculenta", sans-serif;
+}
+
+.slick-slider{
+  height: 100%;
+}
+
+.slick-list{
+  height: 100%;
+}
+.slick-track{
+  height: 100%;
+}
+.slick-slide{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.slick-dots li button:before{
+  color: white !important;
+ font-size: 17px;
+ top: -50px;
+}
+
+.active{
+  background-color: #e3d8c1de;
+  border-radius: 7px;
+}

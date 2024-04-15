@@ -1,0 +1,19 @@
+
+nav{
+    background-color: #154C46;
+}
+
+nav img{
+ width: 65px;
+ height: 65px;
+}
+
+.textColor{
+  color: #e3d8c1de;
+}
+.navLink{
+    color: #eeece9de;
+}
+.navLink:hover{
+ color: #e3d8c1de;
+}

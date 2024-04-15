@@ -1,0 +1,35 @@
+.headComponent{
+    width: 100%;
+    height: calc(100vh - 65px) ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63) 0% 100%), url(../../assets/images/HomeBg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.contactBtn{
+    background-color: #154C46;
+    border: 2px solid transparent;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.contactBtn:hover{
+    background-color: transparent;
+    border: 2px solid #154C46;
+    color: white;
+}
+.aboutBtn{
+    border: 2px solid #154C46;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.aboutBtn:hover{
+    background-color: #154C46;
+    border: 2px solid transparent;
+    color: white;
+}
