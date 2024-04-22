@@ -1,8 +1,9 @@
 .footer {
     background-color: #154C46;
-    box-shadow: 0 0 0 15px #154c465e;
+    box-shadow: 0 0 6px 8px #154c465e;
     height: 300px;
     width: 100%;
+    padding-block: 15px;
 }
 
 .socialIcons {
