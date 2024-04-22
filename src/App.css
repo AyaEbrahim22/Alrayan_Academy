@@ -12,6 +12,10 @@
   background: #154C46;
   border-radius: 5px;
 }
+::selection {
+  color: #154C46;
+  background: #eeece9de;
+}
 
 body{
   font-family: "Truculenta", sans-serif;
@@ -38,7 +42,73 @@ body{
  top: -50px;
 }
 
-.active{
-  background-color: #e3d8c1de;
-  border-radius: 7px;
+.nav-link:focus{
+  color: #eeece9de;
+}
+
+li{
+ list-style: none;
+ margin-bottom: 10px;
+}
+ul{
+  padding: 0;
+}
+.mainColor{
+ color: #154C46; 
+}
+.Packages .col-md-4{
+  min-width: 50%;
+}
+
+.fa-location-dot{
+  position: relative;
+  left: 0;
+  animation: location 1s infinite;
+}
+
+.fa-envelope{
+  animation: envelope 1s infinite;
+}
+
+.fa-phone{
+  animation: phone 1s infinite;
+ }
+
+
+ 
+@keyframes location {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 5px;
+  }
+  100%{
+    top: 0px;
+  }
+}
+
+@keyframes envelope {
+  0% {
+   transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+
+@keyframes phone {
+  0% {
+   transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
 }

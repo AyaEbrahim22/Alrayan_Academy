@@ -8,7 +8,7 @@ export default function Navbar() {
 
     return <>
 
-        <nav className="navbar navbar-expand-lg p-2">
+        <nav  id="navbar" className="navbar navbar-expand-lg p-2">
             <div className="container">
                 <Slide direction='left'>
                     <a className="navbar-brand" href="#">
@@ -25,7 +25,7 @@ export default function Navbar() {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                             <li className="nav-item">
-                                <a className={`${style.navLink} nav-link active`} aria-current="page" href="#">Home</a>
+                                <a className={`${style.navLink} nav-link`} aria-current="page" href="#">Home</a>
                             </li>
 
                             <li className="nav-item">
@@ -54,26 +54,27 @@ export default function Navbar() {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                             <li className="nav-item">
-                                <a className={`${style.textColor} nav-link`} href="#">
+                                <a className={`${style.textColor} nav-link`} href="https://www.facebook.com/resalah55" target='_blank'>
                                     <i className="fa-brands fa-facebook"></i>
                                 </a>
                             </li>
 
                             <li className="nav-item">
-                                <a className={`${style.textColor} nav-link`} href="#">
+                                <a className={`${style.textColor} nav-link`} href="https://m.me/resalah55" target='_blank'>
                                     <i className="fa-brands fa-facebook-messenger"></i>
                                 </a>
                             </li>
 
                             <li className="nav-item">
-                                <a className={`${style.textColor} nav-link`} href="#">
-                                    <i className="fa-brands fa-whatsapp fa-lg"></i>
+                                <a className={`${style.textColor} nav-link`} href='https://wa.me/+201557601371' target='_blank'>
+                                  <i className="fa-brands fa-whatsapp fa-lg"></i>  
+                                                          
                                 </a>
                             </li>
 
                             <li className="nav-item">
-                                <a className={`${style.textColor} nav-link`} href="#">
-                                    <i className="fa-brands fa-youtube fa-lg"></i>
+                                <a className={`${style.textColor} nav-link`} href="https://www.instagram.com/risalah_academyy/?hl=en" target='_blank'>
+                                    <i className="fa-brands fa-instagram fa-lg"></i>
                                 </a>
                             </li>
                         </ul>

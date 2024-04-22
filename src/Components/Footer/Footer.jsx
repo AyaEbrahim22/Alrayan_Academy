@@ -15,15 +15,15 @@ export default function Footer() {
           <div className='col-md-3'>
           <div className='d-flex justify-content-center flex-column'>
               <img src={logo} alt='logo' className='w-25'/>
-              <p className='text-light mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cumque adipisci quam veniam et vero ducimus corrupti explicabo nam. Quis?</p>
+              <p className='text-light mt-2'>Learn online Quran Courses and Islamic Education From The Comfort Of Your Home With Risalah-Academy, Your Spiritual Journey Starts Here!!!</p>
               <h5 className='text-center text-light mb-0'>Social Media</h5>
               <hr className='text-light mt-2'/>
 
               <div className={style.socialIcons}>
-              <i className={`${style.icon} fa-brands fa-facebook`} role='button'></i>
-              <i className={`${style.icon} fa-brands fa-whatsapp`} role='button'></i>
-              <i className={`${style.icon} fa-brands fa-facebook-messenger`} role='button'></i>
-              <i className={`${style.icon} fa-brands fa-youtube`} role='button'></i>
+              <a href='https://www.facebook.com/resalah55' target='_blank'> <i className={`${style.icon} fa-brands fa-facebook`} role='button'></i></a>
+              <a href='https://wa.me/+201557601371' target='_blank'> <i className={`${style.icon} fa-brands fa-whatsapp`} role='button'></i></a>
+              <a href='https://m.me/resalah55' target='_blank'><i className={`${style.icon} fa-brands fa-facebook-messenger`} role='button'></i></a>
+              <a href='https://www.instagram.com/risalah_academyy/?hl=en' target='_blank'><i className={`${style.icon} fa-brands fa-instagram`} role='button'></i></a>
  
               </div>
             </div>
@@ -42,9 +42,9 @@ export default function Footer() {
               <h3 className='text-light mt-4 mb-3'>Get in touch</h3>
               <div className={style.commIcons}>
                 <ul>
-                  <li role='button'><i className="fa-brands fa-google fa-xl me-2"></i> Lorem ipsum dolor sit amet.</li>
-                  <li role='button'><i className="fa-solid fa-envelope fa-xl me-2"></i> lorem@gmail.com</li>
-                  <li role='button'><i className="fa-solid fa-phone fa-xl me-2"></i> +5158488451</li>
+                  <li role='button'><i class="fa-solid fa-location-dot fa-xl me-2"></i> Nasr City, cairo, Egypt</li>
+                  <li role='button'><i className="fa-solid fa-envelope fa-xl me-2"></i> risalahakademy@gmail.com</li>
+                  <li role='button'><i className="fa-solid fa-phone fa-xl me-2"></i> (+20) 1557601371</li>
   
                 </ul>
               </div>

@@ -10,10 +10,17 @@ nav img{
 
 .textColor{
   color: #e3d8c1de;
+  transition: all 0.3s ease-in-out;
+}
+.textColor:hover{
+  color: #e3d8c1de;
+  transform: translateY(-6px);
 }
 .navLink{
     color: #eeece9de;
+    transition: all 0.3s ease-in-out;
 }
 .navLink:hover{
  color: #e3d8c1de;
+ transform: translateY(-6px);
 }

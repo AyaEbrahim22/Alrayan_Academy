@@ -5,6 +5,7 @@ import HomeAbout from '../HomeAbout/HomeAbout'
 import HomeDemo from '../HomeDemo/HomeDemo'
 import HomeCourses from '../HomeCourses/HomeCourses'
 import HomeFeedback from '../HomeFeedback/HomeFeedback'
+import HomePackages from '../HomePackages/HomePackages'
 
 
 export default function Home() {
@@ -23,6 +24,8 @@ export default function Home() {
     <HomeCourses />
 
     <HomeFeedback/>
+
+    <HomePackages/>
 
   </>
 }

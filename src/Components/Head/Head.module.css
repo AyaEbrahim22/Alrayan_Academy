@@ -22,6 +22,7 @@
     background-color: transparent;
     border: 2px solid #154C46;
     color: white;
+    transform: translateY(8px);
 }
 .aboutBtn{
     border: 2px solid #154C46;
@@ -32,4 +33,5 @@
     background-color: #154C46;
     border: 2px solid transparent;
     color: white;
+    transform: translateY(8px);
 }

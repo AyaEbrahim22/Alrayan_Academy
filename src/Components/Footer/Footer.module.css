@@ -38,6 +38,7 @@
     background-color: #e3d8c1de;
     border: 2px solid transparent;
     color: white;
+    transform: translateY(8px);
 }
 
 .commIcons ul {
