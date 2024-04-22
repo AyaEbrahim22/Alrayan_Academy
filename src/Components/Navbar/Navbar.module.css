@@ -19,6 +19,7 @@ nav img{
 .navLink{
     color: #eeece9de;
     transition: all 0.3s ease-in-out;
+    font-size: 19px;
 }
 .navLink:hover{
  color: #e3d8c1de;

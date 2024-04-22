@@ -19,7 +19,7 @@
     transition: all 0.3s ease-in-out;
 }
 .contactBtn:hover{
-    background-color: transparent;
+    background-color: #154c4621;
     border: 2px solid #154C46;
     color: white;
     transform: translateY(8px);
@@ -28,10 +28,17 @@
     border: 2px solid #154C46;
     color: white;
     transition: all 0.3s ease-in-out;
+    background-color: #154c4621;
 }
 .aboutBtn:hover{
     background-color: #154C46;
     border: 2px solid transparent;
     color: white;
     transform: translateY(8px);
+}
+.headTitle{
+    font-size: 50px;
+}
+.headpara{
+    font-size: 20px;
 }

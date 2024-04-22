@@ -30,10 +30,14 @@ export default function HomeDemo() {
 
     <iframe id='videoIframe' height={450} src="https://www.youtube.com/embed/pYMMJPgo5Gg?si=1YI5jxjn_afaAVDp" className='w-100'>
     </iframe>
+  <div className='d-flex align-items-center justify-content-center mt-3'>
+  <button id='arabicBtn' onClick={() => pressArabicBtn()} className={`${style.translateBtn} `}>Arabic</button>
+    <button id='EnglishBtn' onClick={() => pressEnglishBtn()} className={`${style.translateBtn} d-none`}>English</button>
+  </div>
+  
     </div>
 
- <button id='arabicBtn' onClick={() => pressArabicBtn()} className={`${style.arabicBtn} `}>Arabic</button>
- <button id='EnglishBtn' onClick={() => pressEnglishBtn()} className={`${style.arabicBtn} d-none`}>English</button>
+
   
    
   </div>

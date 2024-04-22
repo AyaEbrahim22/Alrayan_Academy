@@ -33,19 +33,16 @@
     background-color: #b5af00;
 }
 
-.arabicBtn{
-    position: absolute;
-    top: 10%;
-    right: 0;
-    padding: 5px 15px;
-    width: fit-content;
+.translateBtn{
+    padding: 5px 45px;
     background-color: transparent;
     border: 2px solid #e3d8c1de;
     border-radius: 6px;
     color: white;
     transition: all 0.3s ease-in-out;
+    font-size: 20px;
 }
-.arabicBtn:hover{
+.translateBtn:hover{
     background-color: #e3d8c1de;
     border: 2px solid transparent;
     transform: translateY(8px);
