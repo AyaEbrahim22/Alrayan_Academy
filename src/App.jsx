@@ -1,15 +1,24 @@
 
+import { RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom';
 import './App.css';
-// import Home from './Components/Home/Home';
 import Layout from './Components/Layout/Layout';
-// import Navbar from './Components/Navbar/Navbar';
-// import Register from './Components/Register/Register';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+
 
 export default function App() {
  
+ let routers = createHashRouter([
+
+  {path:'',  element: <Layout/>, children: [
+    {index: true, element: <Home/>},
+    {path: 'about' , element: <About/>}
+  ]}
+
+ ])
  
  return <>
-  <Layout/>
+   <RouterProvider router={routers}></RouterProvider>
   </>
 }
 

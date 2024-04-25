@@ -1,5 +1,5 @@
 import style from './HomeAbout.module.css'
-import aboutImg from '../../assets/images/aboutImg.jpg'
+import aboutImg from '../../assets/images/homeAbout.jpg'
 import { Zoom } from 'react-awesome-reveal'
 
 
