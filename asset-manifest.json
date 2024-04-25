@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Risalah_Academy/static/css/main.726ce827.css",
-    "main.js": "/Risalah_Academy/static/js/main.a743f71e.js",
+    "main.css": "/Risalah_Academy/static/css/main.21602171.css",
+    "main.js": "/Risalah_Academy/static/js/main.eabe78cc.js",
     "static/js/453.7a703e51.chunk.js": "/Risalah_Academy/static/js/453.7a703e51.chunk.js",
     "static/media/Quran.png": "/Risalah_Academy/static/media/Quran.fc297312ae913ad714c7.png",
     "static/media/HomeBg.jpg": "/Risalah_Academy/static/media/HomeBg.e17e9fff8864dcce1e69.jpg",
@@ -9,10 +9,12 @@
     "static/media/PackagesBg.jpg": "/Risalah_Academy/static/media/PackagesBg.853e833de0ae4685f13d.jpg",
     "static/media/fa-solid-900.ttf": "/Risalah_Academy/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/fa-brands-400.ttf": "/Risalah_Academy/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/AboutImg2.png": "/Risalah_Academy/static/media/AboutImg2.153895dd06ac6fa5b589.png",
     "static/media/fa-solid-900.woff2": "/Risalah_Academy/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/AboutImg1.png": "/Risalah_Academy/static/media/AboutImg1.28b6d85bfcd31e37545e.png",
     "static/media/fa-brands-400.woff2": "/Risalah_Academy/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
     "static/media/VBG.jpg": "/Risalah_Academy/static/media/VBG.e9710177ff87b6f791b1.jpg",
-    "static/media/aboutImg.jpg": "/Risalah_Academy/static/media/aboutImg.66c16c477a9014d4e323.jpg",
+    "static/media/homeAbout.jpg": "/Risalah_Academy/static/media/homeAbout.66c16c477a9014d4e323.jpg",
     "static/media/fa-regular-400.ttf": "/Risalah_Academy/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
     "static/media/hadith.png": "/Risalah_Academy/static/media/hadith.af0b4a1faa6aa07d6b1a.png",
     "static/media/logo.png": "/Risalah_Academy/static/media/logo.e19ee1bd3b0c6433e248.png",
@@ -27,12 +29,12 @@
     "static/media/slick.ttf": "/Risalah_Academy/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Risalah_Academy/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Risalah_Academy/index.html",
-    "main.726ce827.css.map": "/Risalah_Academy/static/css/main.726ce827.css.map",
-    "main.a743f71e.js.map": "/Risalah_Academy/static/js/main.a743f71e.js.map",
+    "main.21602171.css.map": "/Risalah_Academy/static/css/main.21602171.css.map",
+    "main.eabe78cc.js.map": "/Risalah_Academy/static/js/main.eabe78cc.js.map",
     "453.7a703e51.chunk.js.map": "/Risalah_Academy/static/js/453.7a703e51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.726ce827.css",
-    "static/js/main.a743f71e.js"
+    "static/css/main.21602171.css",
+    "static/js/main.eabe78cc.js"
   ]
 }
