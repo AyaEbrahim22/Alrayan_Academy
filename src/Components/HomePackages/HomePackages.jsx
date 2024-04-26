@@ -5,7 +5,7 @@ export default function HomePackages() {
 
 
     return <>
-        <div id='packages' className={`${style.homePackages} Packages`}>
+        <div className={`${style.homePackages} Packages`}>
 
             <div className='container'>
                 <div className='row g-4 justify-content-center'>

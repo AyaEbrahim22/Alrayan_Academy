@@ -46,7 +46,6 @@ export default function About() {
         </div>
         </div>
 
-
         <div className={style.section2}>
        <div className='container'>
        <div className='row'>
@@ -145,7 +144,7 @@ export default function About() {
                 <div className='col-md-3'>
                   <div className={style.card}>
                     <img src={img4} alt='' className='w-50' />
-                    <h5>Quran Ijazah</h5>
+                    <h5>Arabic Language</h5>
                   </div>
                 </div>
 
@@ -175,7 +174,7 @@ export default function About() {
                 <div className='col-md-3'>
                   <div className={style.card}>
                     <img src={img8} alt='' className='w-50' />
-                    <h5>Arabic Language</h5>
+                    <h5> Quran Ijazah </h5>
                   </div>
                 </div>
 
@@ -189,7 +188,7 @@ export default function About() {
                 <div className='col-md-3'>
                   <div className={style.card}>
                     <img src={img10} alt='' className='w-50' />
-                    <h5>Islamic Studies</h5>
+                    <h5>Classes for kids</h5>
                   </div>
                 </div>
 
@@ -205,7 +204,7 @@ export default function About() {
                   <div className={style.card}>
                     <img src={img12} alt='' className='w-50' />
 
-                    <h5>Classes for kids</h5>
+                    <h5> Islamic Studies</h5>
                   </div>
                 </div>
 

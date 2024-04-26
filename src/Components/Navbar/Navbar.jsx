@@ -9,7 +9,7 @@ export default function Navbar() {
 
     return <>
 
-        <nav  id="navbar" className="navbar navbar-expand-lg p-2">
+        <nav className="navbar navbar-expand-lg p-2">
             <div className="container">
                 <Slide direction='left'>
                     <Link className="navbar-brand" to={"/"}>
@@ -33,21 +33,6 @@ export default function Navbar() {
                                 <Link className={`${style.navLink} nav-link`} to={'about'}>About</Link>    
                             </li>
 
-                            {/* <li className="nav-item">
-                                <a className={`${style.navLink} nav-link`} href="#courses">Courses</a>
-                            </li>
-
-                            <li className="nav-item">
-                                <a className={`${style.navLink} nav-link`} href="#testimonials">Testimonials</a>
-                            </li>
-
-                            <li className="nav-item">
-                                <a className={`${style.navLink} nav-link`} href="#packages">Packages</a>
-                            </li>
-
-                            <li className="nav-item">
-                                <a className={`${style.navLink} nav-link`} href="#contact">Contact Us</a>
-                            </li> */}
                         </ul>
                     </Slide>
 

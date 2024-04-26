@@ -11,7 +11,7 @@ import { Fade, Slide } from 'react-awesome-reveal'
 export default function HomeCourses() {
 
     return <>
-        <div id='courses' className={style.coursesComponent}>
+        <div className={style.coursesComponent}>
             <div className='container'>
                 <div className='position-relative'>
                     <Fade duration={1000}>  

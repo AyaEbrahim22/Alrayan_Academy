@@ -42,7 +42,7 @@ export default function Footer() {
               <h3 className='text-light mt-4 mb-3'>Get in touch</h3>
               <div className={style.commIcons}>
                 <ul>
-                  <li role='button'><i class="fa-solid fa-location-dot fa-xl me-2"></i> Nasr City, Cairo, Egypt</li>
+                  <li role='button'><i className="fa-solid fa-location-dot fa-xl me-2"></i> Nasr City, Cairo, Egypt</li>
                   <li role='button'><i className="fa-solid fa-envelope fa-xl me-2"></i> risalahakademy@gmail.com</li>
                   <li role='button'><i className="fa-solid fa-phone fa-xl me-2"></i> (+20) 1557601371</li>
   

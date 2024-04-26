@@ -19,7 +19,7 @@ export default function HomeFeedback() {
     return <>
 
 
-        <div id='testimonials' className={style.FeedbackComponent}>
+        <div className={style.FeedbackComponent}>
 
             <div className="container h-100">
 
