@@ -12,9 +12,9 @@ export default function Navbar() {
         <nav  id="navbar" className="navbar navbar-expand-lg p-2">
             <div className="container">
                 <Slide direction='left'>
-                    <a className="navbar-brand" href="/">
+                    <Link className="navbar-brand" href="/">
                         <img src={logo} alt='logo' />
-                    </a>
+                    </Link>
                 </Slide>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import style from './Head.module.css'
 import { Fade, Slide } from 'react-awesome-reveal'
 export default function Head() {
@@ -15,7 +16,7 @@ export default function Head() {
         <Slide direction='up'>
           <div>
             <button className={`${style.contactBtn} btn me-3 fs-5`}>Book free trial</button>
-            <button className={`${style.aboutBtn} btn fs-5`}>Know about Us</button>
+            <Link className={`${style.aboutBtn} btn fs-5`} to={'about'}>Know about Us</Link>
 
           </div>
         </Slide>
