@@ -2,6 +2,7 @@ import React from 'react'
 import style from './Navbar.module.css'
 import logo from '../../assets/images/logo.png'
 import { Slide } from "react-awesome-reveal";
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
 
@@ -11,7 +12,7 @@ export default function Navbar() {
         <nav  id="navbar" className="navbar navbar-expand-lg p-2">
             <div className="container">
                 <Slide direction='left'>
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/">
                         <img src={logo} alt='logo' />
                     </a>
                 </Slide>
@@ -25,14 +26,14 @@ export default function Navbar() {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                             <li className="nav-item">
-                                <a className={`${style.navLink} nav-link`} aria-current="page" href="#">Home</a>
+                                <Link className={`${style.navLink} nav-link`} aria-current="page" href="/">Home</Link>
                             </li>
 
                             <li className="nav-item">
-                                <a className={`${style.navLink} nav-link`} href="#about">About</a>
+                                <Link className={`${style.navLink} nav-link`} to={'about'}>About</Link>    
                             </li>
 
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a className={`${style.navLink} nav-link`} href="#courses">Courses</a>
                             </li>
 
@@ -46,7 +47,7 @@ export default function Navbar() {
 
                             <li className="nav-item">
                                 <a className={`${style.navLink} nav-link`} href="#contact">Contact Us</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </Slide>
 

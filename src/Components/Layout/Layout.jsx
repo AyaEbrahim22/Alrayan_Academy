@@ -12,8 +12,6 @@ export default function Layout() {
   
    <Outlet></Outlet>
 
-   {/* <Home/> */}
-
    <Footer/>
    
   </>
