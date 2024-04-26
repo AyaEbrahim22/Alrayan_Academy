@@ -12,7 +12,7 @@ export default function Navbar() {
         <nav  id="navbar" className="navbar navbar-expand-lg p-2">
             <div className="container">
                 <Slide direction='left'>
-                    <Link className="navbar-brand" href="/">
+                    <Link className="navbar-brand" to={"/"}>
                         <img src={logo} alt='logo' />
                     </Link>
                 </Slide>
@@ -26,7 +26,7 @@ export default function Navbar() {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                             <li className="nav-item">
-                                <Link className={`${style.navLink} nav-link`} aria-current="page" href="/">Home</Link>
+                                <Link className={`${style.navLink} nav-link`} aria-current="page" to={"/"}>Home</Link>
                             </li>
 
                             <li className="nav-item">
