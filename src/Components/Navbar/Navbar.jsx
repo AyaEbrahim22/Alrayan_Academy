@@ -33,6 +33,10 @@ export default function Navbar() {
                                 <Link className={`${style.navLink} nav-link`} to={'about'}>About</Link>    
                             </li>
 
+                            <li className="nav-item">
+                                <Link className={`${style.navLink} nav-link`} to={'contact'}>Contact</Link>    
+                            </li>
+
                         </ul>
                     </Slide>
 

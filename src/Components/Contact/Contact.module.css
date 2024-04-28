@@ -1,0 +1,70 @@
+.contactComponent{
+    padding: 50px 0;
+}
+
+.contactCard{
+    padding: 40px 10px 30px 10px;
+    box-shadow: 0 0 14px 0px #00000038;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.contactCard h3{
+ font-size: 37px;
+ color: #154C46;
+}
+
+.contactSection h3{
+    font-size: 50px;
+}
+.contactSection h3 span{
+    color: rgb(196 196 121);
+}
+.contactSection p{
+   font-size: 20px;
+   font-weight: 500;
+}
+.contactSection form{
+    box-shadow: 0 0 14px 0px #00000038;
+    padding: 30px;
+}
+.contactSection form input{
+    border: transparent;
+    background-color: #EEEEEE;
+    padding: 6px;
+    width: 100%;
+    outline: none;
+}
+.contactSection form textarea{
+    background-color: #EEEEEE;
+    padding: 6px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.messageBtn{
+    padding: 7px 15px;
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: #154C46;
+    border: 2px solid transparent;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.messageBtn:hover{
+    background-color: transparent;
+    border: 2px solid #154C46;
+    color: #154C46;
+}
+.contactMap h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.contactMap h3 span{
+    color: rgb(196 196 121);
+}
+.contactMap p{
+ font-size: 20px;
+ font-weight: 500;
+}
