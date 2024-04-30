@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Risalah_Academy/static/css/main.9b661028.css",
-    "main.js": "/Risalah_Academy/static/js/main.46bb4324.js",
+    "main.css": "/Risalah_Academy/static/css/main.a18b5046.css",
+    "main.js": "/Risalah_Academy/static/js/main.d37a1745.js",
     "static/js/453.7a703e51.chunk.js": "/Risalah_Academy/static/js/453.7a703e51.chunk.js",
     "static/media/Quran.png": "/Risalah_Academy/static/media/Quran.fc297312ae913ad714c7.png",
     "static/media/HomeBg.jpg": "/Risalah_Academy/static/media/HomeBg.e17e9fff8864dcce1e69.jpg",
@@ -29,12 +29,12 @@
     "static/media/slick.ttf": "/Risalah_Academy/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Risalah_Academy/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Risalah_Academy/index.html",
-    "main.9b661028.css.map": "/Risalah_Academy/static/css/main.9b661028.css.map",
-    "main.46bb4324.js.map": "/Risalah_Academy/static/js/main.46bb4324.js.map",
+    "main.a18b5046.css.map": "/Risalah_Academy/static/css/main.a18b5046.css.map",
+    "main.d37a1745.js.map": "/Risalah_Academy/static/js/main.d37a1745.js.map",
     "453.7a703e51.chunk.js.map": "/Risalah_Academy/static/js/453.7a703e51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b661028.css",
-    "static/js/main.46bb4324.js"
+    "static/css/main.a18b5046.css",
+    "static/js/main.d37a1745.js"
   ]
 }
