@@ -3,6 +3,10 @@
     padding-block: 30px;
     min-height: 500px;
     background-color: #154C46;
+     background-image: linear-gradient(rgba(0, 69, 52, 0.9) 0% 100%), url(../../assets/images/VBG.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.301) 0% 100%), url(../../assets/images/HomeFeedback.jpg);
     background-size: cover;
     background-position: 100%; */

@@ -6,9 +6,21 @@ import aqeedah from '../../assets/images/aqeedah.jpg'
 import tajweed from '../../assets/images/tajweed.png'
 import hadith from '../../assets/images/hadith.png'
 import { Fade, Slide } from 'react-awesome-reveal'
+import { Scrollspy } from "@makotot/ghostui";
+import { useRef } from 'react'
+import { Link } from 'react-router-dom'
+
 
 
 export default function HomeCourses() {
+
+    const sectionRefs = [
+        useRef<HTMLDivElement>(null),
+        useRef<HTMLDivElement>(null),
+        useRef<HTMLDivElement>(null),
+        useRef<HTMLDivElement>(null),
+        useRef<HTMLDivElement>(null)
+      ];
 
     return <>
         <div className={style.coursesComponent}>
@@ -22,16 +34,19 @@ export default function HomeCourses() {
 
                 <div className='row gx-4 gy-4 justify-content-between'>
 
+       
                     <div className={`col-md-4`} role='button'>
                         <Fade duration={2000}>
                             <div className={`${style.courseCard} text-center`}>
                                 <img src={quran} alt='Books Icon' className='w-50' />
                                 <h4 className='mt-3'>QURAN</h4>
                                 <p>you can learn how to memorise the Holy Qur’an and become a Hafiz/Hafiz of the Qur’an.</p>
-                                <a href='#'><button className={`${style.detailsBtn} btn`}>Course Details</button></a>
+                                <Link to={'demo'} className={`${style.detailsBtn} btn`}>Course Details</Link>
+                                {/* <a  href={`#register`}><button className={`${style.detailsBtn} btn`}></button></a> */}
                             </div>
                         </Fade>
                     </div>
+    
 
                     <div className={`col-md-4`} role='button'>
                         <Fade duration={2000}>
@@ -39,7 +54,8 @@ export default function HomeCourses() {
                                 <img src={fiqh} alt='Books Icon' className='w-50' />
                                 <h4 className='mt-3'>FIQH</h4>
                                 <p className='px-2'>FIQH provides clear guidance on how to lead a good and meaningful life in accordance with Islamic teachings.</p>
-                                <a href='#'><button className={`${style.detailsBtn} btn`}>Course Details</button></a>
+                                {/* <a href='#'><button className={`${style.detailsBtn} btn`}>Course Details</button></a> */}
+                                <Link to={'demo'} className={`${style.detailsBtn} btn`}>Course Details</Link>
                             </div>
                         </Fade>
                     </div>
@@ -50,7 +66,8 @@ export default function HomeCourses() {
                                 <img src={aqeedah} alt='Books Icon' className='w-50' />
                                 <h4 className='mt-3'>AQEEDAH</h4>
                                 <p className='px-2'>Learning the correct Islamic Aqeedah is mandatory for our lives and to determine our destiny in the hereafter. </p>
-                                <a href='#'><button className={`${style.detailsBtn} btn`}>Course Details</button></a>
+                                {/* <a href='#'><button className={`${style.detailsBtn} btn`}>Course Details</button></a> */}
+                                <Link to={'demo'} className={`${style.detailsBtn} btn`}>Course Details</Link>
                             </div>
                         </Fade>
                     </div>
@@ -61,7 +78,8 @@ export default function HomeCourses() {
                                 <img src={tajweed} alt='Books Icon' className='w-50' />
                                 <h4 className='mt-3'>TAJWEED</h4>
                                 <p className='px-2'>The study of reading Quran with Tajweed is of great importance and is a whole field by itself in our religion.</p>
-                                <a href='#'><button className={`${style.detailsBtn} btn`}>Course Details</button></a>
+                                {/* <a href='#'><button className={`${style.detailsBtn} btn`}>Course Details</button></a> */}
+                                <Link to={'demo'} className={`${style.detailsBtn} btn`}>Course Details</Link>
                             </div>
                         </Fade>
 
@@ -73,7 +91,8 @@ export default function HomeCourses() {
                                 <img src={hadith} alt='Books Icon' className='w-50' />
                                 <h4 className='mt-3'>HADITH</h4>
                                 <p className='px-1'>hadiths are among the sources through which they come to understand the practice of Muhammad and his ummah</p>
-                                <a href='#'><button className={`${style.detailsBtn} btn`}>Course Details</button></a>
+                                {/* <a href='#'><button className={`${style.detailsBtn} btn`}>Course Details</button></a> */}
+                                <Link to={'demo'} className={`${style.detailsBtn} btn`}>Course Details</Link>
                             </div>
                         </Fade>
 
@@ -85,7 +104,8 @@ export default function HomeCourses() {
                                 <img src={arabic} alt='Books Icon' className='w-50' />
                                 <h4 className='mt-3'>ARABIC</h4>
                                 <p>Knowledge of Arabic opens the door to vast resources of Islamic knowledge. It</p>
-                                <a href='#'><button className={`${style.detailsBtn} btn`}>Course Details</button></a>
+                                {/* <a href='#'><button className={`${style.detailsBtn} btn`}>Course Details</button></a> */}
+                                <Link to={'demo'} className={`${style.detailsBtn} btn`}>Course Details</Link>
                             </div>
                         </Fade>
 

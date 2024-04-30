@@ -1,12 +1,21 @@
 .demoComponent{
-    background-image: linear-gradient(rgba(0, 69, 52, 0.9) 0% 100%), url(../../assets/images/VBG.jpg);
-    background-size: cover;
+    /* background-image: linear-gradient(rgba(0, 69, 52, 0.9) 0% 100%), url(../../assets/images/VBG.jpg); */
+    /* background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     padding-bottom: 60px;
+    margin-top: 120px;
+}
+.demoComponent h3{
+ font-size: 50px;
+ font-weight: 600;
+ text-align: center;
+}
+.demoComponent h3 span{
+  color: rgb(196 196 121);
 }
 .headingVDesign{
-    background-color: #b5af00;
+    background-color: #154c46dc;
     position: relative;
     width: 165px;
     height: 1px;
@@ -20,7 +29,7 @@
     position: absolute;
     top: -8px;
     left: 50px;
-    background-color: #b5af00;
+    background-color: #154c46dc;
 
 }
 .headingVDesign:before{
@@ -30,20 +39,69 @@
     position: absolute;
     top: 8px;
     left: 50px;
-    background-color: #b5af00;
+    background-color: #154c46dc;
 }
 
 .translateBtn{
     padding: 5px 45px;
     background-color: transparent;
-    border: 2px solid #e3d8c1de;
-    border-radius: 6px;
-    color: white;
+    border: 2px solid #154c46dc;
+    /* border-radius: 6px; */
+    /* color: white; */
     transition: all 0.3s ease-in-out;
     font-size: 20px;
+    font-weight: 600;
 }
 .translateBtn:hover{
-    background-color: #e3d8c1de;
+    background-color: #154c46dc;
     border: 2px solid transparent;
     transform: translateY(8px);
+    color: #EEEEEE;
+}
+
+
+
+
+
+
+
+
+
+
+.registerSection p{
+   font-size: 20px;
+   font-weight: 500;
+}
+.registerSection form{
+    box-shadow: 0 0 14px 0px #00000038;
+    padding: 30px;
+}
+.registerSection form input, .registerSection form select{
+    border: transparent;
+    background-color: #EEEEEE;
+    padding: 6px;
+    width: 100%;
+    outline: none;
+}
+.registerSection form textarea{
+    background-color: #EEEEEE;
+    padding: 6px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.messageBtn{
+    padding: 7px 15px;
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: #154C46;
+    border: 2px solid transparent;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.messageBtn:hover{
+    background-color: transparent;
+    border: 2px solid #154C46;
+    color: #154C46;
 }

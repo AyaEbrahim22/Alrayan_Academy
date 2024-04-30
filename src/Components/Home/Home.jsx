@@ -15,15 +15,15 @@ export default function Home() {
 
     <Head />
 
-    <Intro />
-
     <HomeAbout />
 
+    <Intro />
+    
     <HomeDemo />
 
-    <HomeCourses />
-
     <HomeFeedback/>
+
+    <HomeCourses />
 
     <HomePackages/>
 

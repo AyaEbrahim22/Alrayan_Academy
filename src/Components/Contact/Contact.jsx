@@ -57,7 +57,7 @@ export default function Contact() {
 
                                 <div className='mt-3'>
                                     <label className='w-100 fw-bold fs-5'>Phone:</label>
-                                    <input type='email' name='' placeholder='0100 123 4567' />
+                                    <input type='tel' name='' placeholder='0100 123 4567' />
                                 </div>
 
                                 <div className='mt-3'>
