@@ -1,24 +1,21 @@
-
-.coursesComponent{
+.coursesComponent {
     padding-bottom: 60px;
 }
-.courseCard{
-    padding-block: 20px;
+.courseCard {
+    padding: 20px 0 30px 0;
     box-shadow: 0px 5px 13px 0 #154c464a;
-    border-radius: 6px;
     transition: transform 0.3s ease-in-out;
 }
-.courseCard img{
+.courseCard img {
     transition: transform 0.7s ease-in-out;
 }
-.courseCard:hover img{
-  transform: scale(1.2);
+.courseCard:hover img {
+    transform: scale(1.2);
 }
-.courseCard:hover{
- transform: translateY(10px)
+.courseCard:hover {
+    transform: translateY(10px)
 }
-
-.headingCDesign{
+.headingCDesign {
     background-color: #154c46dc;
     position: relative;
     width: 165px;
@@ -26,7 +23,7 @@
     top: -33px;
     left: 564px;
 }
-.headingCDesign:after{
+.headingCDesign:after {
     content: '';
     width: 70px;
     height: 2px;
@@ -34,9 +31,8 @@
     top: -8px;
     left: 50px;
     background-color: #154c46dc;
-
 }
-.headingCDesign:before{
+.headingCDesign:before {
     content: '';
     width: 70px;
     height: 2px;
@@ -45,16 +41,27 @@
     left: 50px;
     background-color: #154c46dc;
 }
-
-.detailsBtn{
+.bookBtn {
     background-color: #154C46;
     border: 2px solid transparent;
     color: white;
     transition: all 0.3s ease-in-out;
+    padding: 8px 12px
 }
-
-.detailsBtn:hover{
+.bookBtn:hover {
     background-color: transparent;
     border: 2px solid #154C46;
     color: #154C46;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+    .headingCDesign {
+        left: 28%;
+    }
+
+    .coursesComponent {
+        padding-bottom: 0px;
+    }
 }

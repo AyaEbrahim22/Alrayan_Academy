@@ -1,5 +1,4 @@
 import style from './HomePackages.module.css'
-import { AttentionSeeker, Slide } from "react-awesome-reveal";
 
 export default function HomePackages() {
 

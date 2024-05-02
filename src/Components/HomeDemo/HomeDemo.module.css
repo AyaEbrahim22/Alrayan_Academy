@@ -1,20 +1,16 @@
-.demoComponent{
-    /* background-image: linear-gradient(rgba(0, 69, 52, 0.9) 0% 100%), url(../../assets/images/VBG.jpg); */
-    /* background-size: cover;
-    background-position: center center;
-    background-attachment: fixed; */
+.demoComponent {
     padding-bottom: 60px;
-    margin-top: 120px;
+    margin-top: 80px;
 }
-.demoComponent h3{
- font-size: 50px;
- font-weight: 600;
- text-align: center;
+.demoComponent h3 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
 }
-.demoComponent h3 span{
-  color: rgb(196 196 121);
+.demoComponent h3 span {
+    color: rgb(196 196 121);
 }
-.headingVDesign{
+.headingVDesign {
     background-color: #154c46dc;
     position: relative;
     width: 165px;
@@ -22,7 +18,7 @@
     top: -32px;
     left: 564px;
 }
-.headingVDesign:after{
+.headingVDesign:after {
     content: '';
     width: 70px;
     height: 1px;
@@ -30,9 +26,8 @@
     top: -8px;
     left: 50px;
     background-color: #154c46dc;
-
 }
-.headingVDesign:before{
+.headingVDesign:before {
     content: '';
     width: 70px;
     height: 1px;
@@ -41,56 +36,44 @@
     left: 50px;
     background-color: #154c46dc;
 }
-
-.translateBtn{
+.translateBtn {
     padding: 5px 45px;
     background-color: transparent;
     border: 2px solid #154c46dc;
-    /* border-radius: 6px; */
-    /* color: white; */
     transition: all 0.3s ease-in-out;
     font-size: 20px;
     font-weight: 600;
 }
-.translateBtn:hover{
+.translateBtn:hover {
     background-color: #154c46dc;
     border: 2px solid transparent;
     transform: translateY(8px);
     color: #EEEEEE;
 }
-
-
-
-
-
-
-
-
-
-
-.registerSection p{
-   font-size: 20px;
-   font-weight: 500;
+.registerSection p {
+    font-size: 20px;
+    font-weight: 500;
 }
-.registerSection form{
+.registerSection form {
     box-shadow: 0 0 14px 0px #00000038;
     padding: 30px;
 }
-.registerSection form input, .registerSection form select{
+.registerSection form input,
+.registerSection form select {
     border: transparent;
     background-color: #EEEEEE;
     padding: 6px;
     width: 100%;
     outline: none;
 }
-.registerSection form textarea{
+.registerSection form textarea {
     background-color: #EEEEEE;
     padding: 6px;
     width: 100%;
     outline: none;
     border: none;
 }
-.messageBtn{
+.messageBtn {
     padding: 7px 15px;
     font-size: 18px;
     margin-top: 15px;
@@ -99,9 +82,15 @@
     color: white;
     transition: all 0.3s ease-in-out;
 }
-
-.messageBtn:hover{
+.messageBtn:hover {
     background-color: transparent;
     border: 2px solid #154C46;
     color: #154C46;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .demoComponent {
+        margin-top: 30px;
+    }
+
 }

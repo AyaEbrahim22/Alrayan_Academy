@@ -1,31 +1,38 @@
-.aboutComponent{
+.aboutComponent {
     margin-bottom: 70px;
     margin-top: 20px;
-   }
-   .headingADesign{
-       background-color: #154c46dc;
-       position: relative;
-       width: 165px;
-       height: 2px;
-       top: -32px;
-       left: 564px;
-       margin-bottom: 30px;
-   }
-   .headingADesign::after{
-       content: '';
-       width: 70px;
-       height: 2px;
-       position: absolute;
-       top: -8px;
-       left: 50px;
-       background-color: #154c46dc;
-   }
-   .headingADesign:before{
-       content: '';
-       width: 70px;
-       height: 2px;
-       position: absolute;
-       top: 8px;
-       left: 50px;
-       background-color: #154c46dc;
-   }
+}
+.headingADesign {
+    background-color: #154c46dc;
+    position: relative;
+    width: 165px;
+    height: 2px;
+    top: -32px;
+    left: 44%;
+    margin-bottom: 30px;
+}
+.headingADesign::after {
+    content: '';
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    top: -8px;
+    left: 50px;
+    background-color: #154c46dc;
+}
+.headingADesign:before {
+    content: '';
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    background-color: #154c46dc;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .headingADesign {
+        left: 29%;
+    }
+
+}

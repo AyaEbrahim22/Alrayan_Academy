@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
 
-
     return <>
 
         <nav className="navbar navbar-expand-lg p-2">
@@ -44,26 +43,26 @@ export default function Navbar() {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                             <li className="nav-item">
-                                <a className={`${style.textColor} nav-link`} href="https://www.facebook.com/resalah55" target='_blank'>
+                                <a className={`${style.textColor} nav-link`} href="https://www.facebook.com/resalah55" target='_blank'  without rel="noreferrer">
                                     <i className="fa-brands fa-facebook"></i>
                                 </a>
                             </li>
 
                             <li className="nav-item">
-                                <a className={`${style.textColor} nav-link`} href="https://m.me/resalah55" target='_blank'>
+                                <a className={`${style.textColor} nav-link`} href="https://m.me/resalah55" target='_blank'  without rel="noreferrer">
                                     <i className="fa-brands fa-facebook-messenger"></i>
                                 </a>
                             </li>
 
                             <li className="nav-item">
-                                <a className={`${style.textColor} nav-link`} href='https://wa.me/+201557601371' target='_blank'>
+                                <a className={`${style.textColor} nav-link`} href='https://wa.me/+201557601371' target='_blank'  without rel="noreferrer">
                                   <i className="fa-brands fa-whatsapp fa-lg"></i>  
                                                           
                                 </a>
                             </li>
 
                             <li className="nav-item">
-                                <a className={`${style.textColor} nav-link`} href="https://www.instagram.com/risalah_academyy/?hl=en" target='_blank'>
+                                <a className={`${style.textColor} nav-link`} href="https://www.instagram.com/risalah_academyy/?hl=en" target='_blank'  without rel="noreferrer">
                                     <i className="fa-brands fa-instagram fa-lg"></i>
                                 </a>
                             </li>

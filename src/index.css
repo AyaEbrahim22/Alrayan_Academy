@@ -2,12 +2,10 @@
 ::-webkit-scrollbar {
   width: 14px;
 }
-
 ::-webkit-scrollbar-track {
   background: #c9c9c9;
   border-radius: 5px;
 }
-
 ::-webkit-scrollbar-thumb {
   background: #154C46;
   border-radius: 5px;
@@ -16,15 +14,12 @@
   color: #154C46;
   background: #eeece9de;
 }
-
 body{
   font-family: "Truculenta", sans-serif;
 }
-
 .slick-slider{
   height: 100%;
 }
-
 .slick-list{
   height: 100%;
 }
@@ -41,11 +36,9 @@ body{
  font-size: 17px;
  top: -50px;
 }
-
 .nav-link:focus{
   color: #eeece9de;
 }
-
 li{
  list-style: none;
  margin-bottom: 10px;
@@ -56,26 +49,18 @@ ul{
 .mainColor{
  color: #154C46; 
 }
-.Packages .col-md-4{
-  min-width: 50%;
-}
-
 .fa-location-dot{
   position: relative;
   left: 0;
   animation: location 1s infinite;
 }
-
 .fa-envelope{
   animation: envelope 1s infinite;
 }
-
 .fa-phone{
   animation: phone 1s infinite;
  }
 
-
- 
 @keyframes location {
   0% {
     top: 0px;
@@ -99,7 +84,6 @@ ul{
     transform: scale(1);
   }
 }
-
 
 @keyframes phone {
   0% {

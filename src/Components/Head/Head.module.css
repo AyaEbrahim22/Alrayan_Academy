@@ -1,6 +1,6 @@
-.headComponent{
+.headComponent {
     width: 100%;
-    height: calc(100vh - 65px) ;
+    height: calc(100vh - 65px);
     background-image: linear-gradient(rgba(0, 0, 0, 0.63) 0% 100%), url(../../assets/images/HomeBg.jpg);
     background-size: cover;
     background-position: center;
@@ -11,34 +11,55 @@
     color: white;
     text-align: center;
 }
-
-.contactBtn{
+.contactBtn {
     background-color: #154C46;
     border: 2px solid transparent;
     color: white;
     transition: all 0.3s ease-in-out;
-}
-.contactBtn:hover{
-    background-color: #154c4621;
-    border: 2px solid #154C46;
-    color: white;
-    transform: translateY(8px);
-}
-.aboutBtn{
-    border: 2px solid #154C46;
-    color: white;
-    transition: all 0.3s ease-in-out;
-    background-color: #154c4621;
-}
-.aboutBtn:hover{
-    background-color: #154C46;
-    border: 2px solid transparent;
-    color: white;
-    transform: translateY(8px);
-}
-.headTitle{
-    font-size: 50px;
-}
-.headpara{
+    padding: 8px 12px;
     font-size: 20px;
+}
+.contactBtn:hover {
+    background-color: #154c4621;
+    border: 2px solid #154C46;
+    color: white;
+    transform: translateY(8px);
+}
+.aboutBtn {
+    border: 2px solid #154C46;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    background-color: #154c4621;
+    padding: 8px 12px;
+    font-size: 20px;
+}
+.aboutBtn:hover {
+    background-color: #154C46;
+    border: 2px solid transparent;
+    color: white;
+    transform: translateY(8px);
+}
+.headTitle {
+    font-size: 48px;
+}
+.headpara {
+    font-size: 20px;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .headTitle {
+        font-size: 23px;
+    }
+
+    .headpara {
+        font-size: 18px;
+        padding: 0 40px;
+    }
+
+    .contactBtn,
+    .aboutBtn {
+        font-size: 15px;
+    }
+
 }

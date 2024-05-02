@@ -1,39 +1,34 @@
 .footer {
     background-color: #154C46;
     box-shadow: 0 0 6px 8px #154c465e;
-    height: 300px;
     width: 100%;
     padding-block: 15px;
 }
-
 .socialIcons {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-
 .socialIcons i {
     font-size: 25px;
     color: white;
 }
-
 .socialIcons i {
     transition: color 0.3s ease-in-out;
 }
-
 .socialIcons .icon:hover {
     color: #e3d8c1de;
 }
-
 .textColor{
     color: #e3d8c1de;
     text-align: center;
 }
 .registerBtn{
-    margin-top: 35px;
+    margin-top: 20px;
     border: 2px solid #e3d8c1de;
     color: white;
     transition: all 0.3s ease-in-out;
+    padding: 8px 12px;
 }
 .registerBtn:hover{
     background-color: #e3d8c1de;
@@ -41,17 +36,14 @@
     color: white;
     transform: translateY(8px);
 }
-
 .commIcons ul {
     padding: 0;
 }
-
 .commIcons li {
     list-style: none;
     padding: 10px 0;
     color: white;
 }
-
 .commIcons li i {
     color: rgb(196 196 121);
 }

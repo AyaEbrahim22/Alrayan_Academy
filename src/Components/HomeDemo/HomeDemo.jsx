@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import style from './HomeDemo.module.css'
 
 export default function HomeDemo() {
@@ -14,22 +15,25 @@ export default function HomeDemo() {
     document.getElementById('EnglishBtn').classList.add('d-none')
   }
 
+  useEffect(() => {
+
+    window.scrollTo(0, 0)
+
+  }, [])
+
+
   return <>
 
     <div className={style.demoComponent}>
 
       <div className='container'>
-        {/* <div className="position-relative">
-          <h2 className='text-center my-4 mb-0 mt-0 pt-4 mb-5'>ENJOY OUR DEMO</h2>
-          <div className={style.headingVDesign}></div>
-        </div> */}
 
         <div className='row g-4 justify-content-center align-items-center position-relative'>
 
           <div className='col-md-7'>
             <h3>Our Reliable Online Platform for <span> Islamic Education</span></h3>
 
-            <iframe id='videoIframe' height={450} src="https://www.youtube.com/embed/pYMMJPgo5Gg?si=1YI5jxjn_afaAVDp" className='w-100'>
+            <iframe id='videoIframe' height={450} src="https://www.youtube.com/embed/pYMMJPgo5Gg?si=1YI5jxjn_afaAVDp" className='w-100' title="demo">
             </iframe>
             <div className='d-flex align-items-center justify-content-center mt-3'>
               <button id='arabicBtn' onClick={() => pressArabicBtn()} className={`${style.translateBtn} `}>Arabic</button>
@@ -56,7 +60,6 @@ export default function HomeDemo() {
                       <input type='email' name='' placeholder='Your email..' />
                     </div>
                   </div>
-
                 </div>
                 <div className='mt-4'>
                   <div>
@@ -66,8 +69,8 @@ export default function HomeDemo() {
                         <input type='tel' name='' placeholder='0100 123 4567' />
                       </div>
                       <div className='col-md-6'>
-                        <label className='w-100 fw-bold fs-5'>Course Title:</label>                    
-                       <select name='' className='w-100'>
+                        <label className='w-100 fw-bold fs-5'>Course Title:</label>
+                        <select name='' className='w-100'>
                           <option value=""><input type='text' name='' placeholder="Qura'n Course" />Quran</option>
                           <option value="">FIQH</option>
                           <option value="">AQEEDAH</option>
@@ -75,7 +78,7 @@ export default function HomeDemo() {
                           <option value="">HADITH</option>
                           <option value="">ARABIC</option>
                         </select>
-                     
+
                         {/* <input type='text' name='' placeholder="Qura'n Course" /> */}
                       </div>
                     </div>
@@ -84,7 +87,7 @@ export default function HomeDemo() {
                 </div>
 
                 <div className='mt-4'>
-                <div className='row'>
+                  <div className='row'>
                     <div className='col-md-6'>
                       <label className='w-100 fw-bold fs-5'>Student Age:</label>
                       <input type='number' name='' placeholder='15' />
@@ -92,44 +95,38 @@ export default function HomeDemo() {
                     <div className='col-md-6'>
                       <label className='w-100 fw-bold fs-5'>Student Gender:</label>
                       <select name='' className='w-100'>
-                          <option value="">Male</option>
-                          <option value="">Female</option>                       
-                        </select>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                      </select>
                     </div>
                   </div>
                 </div>
 
                 <div className='mt-4'>
-                <div className='row'>
+                  <div className='row'>
 
-                <div className='col-md-6'>
+                    <div className='col-md-6'>
                       <label className='w-100 fw-bold fs-5'>Teacher Gender:</label>
                       <select name='' className='w-100'>
-                          <option value="">Male</option>
-                          <option value="">Female</option>                       
-                        </select>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                      </select>
                     </div>
                     <div className='col-md-6'>
                       <label className='w-100 fw-bold fs-5'>Preferred Days:</label>
                       <input type='text' name='' placeholder='saturday' />
                     </div>
-                 
+
                   </div>
                 </div>
 
                 <button className={style.messageBtn}>Submit</button>
 
-
-
               </form>
             </div>
           </div>
 
-
-
-
         </div>
-
 
       </div>
     </div>
