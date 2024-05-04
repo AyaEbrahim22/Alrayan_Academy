@@ -29,7 +29,7 @@ export default function HomeAbout() {
           <div className='col-md-5'>
 
             <p className='fs-5'><span className='fs-3 text-success'>RISALAH</span> is an Online Quran Academy that offers Online Quran Classes to people all over the World. We seek to deliver the best and completely accurate comprehension of Basic Quran Reading, Quran with Tajweed, Quran Memorization, Tafseer e Quran, and Quranic Arabic on one platform with qualified, recognized Ejaz ul Quran instructors. In this Digital age, learning the Quran is not difficult. The top teachers are available to you even if you choose to learn at home.</p>
-            <p className='fs-5'><span className='fs-3'>R</span>isalah is one of the leading and legit platforms for learning the Quran. Any device that has Internet access may be used to learn the Quran Online. It might be your laptop, Tablet, Computer, or even your Mobile Phone. With the aid of thorough knowledge of Tajweed, comprehension of this esteemed text, and Quranic Arabic, our main focus is on imparting the best Quranic interpretations.</p>
+            <p className='fs-5'>risalah is one of the leading and legit platforms for learning the Quran. Any device that has Internet access may be used to learn the Quran Online. It might be your laptop, Tablet, Computer, or even your Mobile Phone. With the aid of thorough knowledge of Tajweed, comprehension of this esteemed text, and Quranic Arabic, our main focus is on imparting the best Quranic interpretations.</p>
           </div>
         </div>
 

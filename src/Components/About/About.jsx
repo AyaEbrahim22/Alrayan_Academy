@@ -35,7 +35,7 @@ export default function About() {
                   Our team of qualified Quran teachers is excellently delivering online lessons in innovative and interesting ways.
                   They are striving to make the Quran learning easier for students of all ages and backgrounds.
                 </p>
-                <Link to={'contact'} className={`${style.contactBtn}`}>Contact us</Link>
+                <Link to={'/contact'} className={`${style.contactBtn}`}>Contact us</Link>
               </div>
             </div>
             <div className='col-md-6'>
