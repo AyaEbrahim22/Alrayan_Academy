@@ -4,11 +4,10 @@ export default function HomePackages() {
 
 
     return <>
-        <div className={`${style.homePackages} Packages`}>
+        <div className={`${style.homePackages}`}>
 
             <div className='container'>
                 <div className='row g-4 justify-content-center'>
-
 
                     <div className='col-md-3'>
 
@@ -19,7 +18,7 @@ export default function HomePackages() {
                                 <span className='fs-5 text-secondary'>Per month</span>
                             </div>
                             <div className='row align-items-center justify-content-center'>
-                                <div className='col-md-4 d-flex align-items-center justify-content-center p-0'>
+                                <div className='d-flex align-items-center justify-content-center p-0'>
                                     <ul>
                                         <li className='fs-5'><i className="fa-solid fa-check mainColor"></i><span className='text-secondary'> Free Trial</span></li>
                                         <li className='fs-5'><i className="fa-solid fa-check mainColor"></i><span className='text-secondary'> 1 hour/class</span></li>
@@ -30,8 +29,6 @@ export default function HomePackages() {
                             </div>
 
                         </div>
-
-
 
                     </div>
 
@@ -44,7 +41,7 @@ export default function HomePackages() {
                                 <span className='fs-5 text-secondary'>Per month</span>
                             </div>
                             <div className='row align-items-center justify-content-center'>
-                                <div className='col-md-4 d-flex align-items-center justify-content-center p-0'>
+                                <div className='d-flex align-items-center justify-content-center p-0'>
                                     <ul>
                                         <li className='fs-5'><i className="fa-solid fa-check mainColor"></i><span className='text-secondary'> Free Trial</span></li>
                                         <li className='fs-5'><i className="fa-solid fa-check mainColor"></i><span className='text-secondary'> 30 mins/class</span></li>
@@ -55,8 +52,6 @@ export default function HomePackages() {
                             </div>
 
                         </div>
-
-
 
                     </div>
 
@@ -69,7 +64,7 @@ export default function HomePackages() {
                                 <span className='fs-5 text-secondary'>Per month</span>
                             </div>
                             <div className='row align-items-center justify-content-center'>
-                                <div className='col-md-4 d-flex align-items-center justify-content-center p-0'>
+                                <div className='d-flex align-items-center justify-content-center p-0'>
                                     <ul>
                                         <li className='fs-5'><i className="fa-solid fa-check mainColor"></i><span className='text-secondary'> Free Trial</span></li>
                                         <li className='fs-5'><i className="fa-solid fa-check mainColor"></i><span className='text-secondary'> 30 mins/class</span></li>
@@ -80,8 +75,6 @@ export default function HomePackages() {
                             </div>
 
                         </div>
-
-
 
                     </div>
 
@@ -94,7 +87,7 @@ export default function HomePackages() {
                                 <span className='fs-5 text-secondary'>Per month</span>
                             </div>
                             <div className='row align-items-center justify-content-center'>
-                                <div className='col-md-4 d-flex align-items-center justify-content-center p-0'>
+                                <div className='d-flex align-items-center justify-content-center p-0'>
                                     <ul>
                                         <li className='fs-5'><i className="fa-solid fa-check mainColor"></i><span className='text-secondary'> Free Trial</span></li>
                                         <li className='fs-5'><i className="fa-solid fa-check mainColor"></i><span className='text-secondary'> 30 mins/class</span></li>
