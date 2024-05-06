@@ -3,7 +3,7 @@
 }
 
 .contactBtn {
-    background-color: #154C46;
+    background-color: #004659;
     border: 2px solid transparent;
     color: white;
     transition: all 0.3s ease-in-out;
@@ -14,12 +14,12 @@
 
 .contactBtn:hover {
     background-color: transparent;
-    border: 2px solid #154C46;
-    color: #154C46;
+    border: 2px solid #004659;
+    color: #004659;
 }
 
 .section2 {
-    background-color: #154C46;
+    background-color: #004659;
     padding: 40px 0;
     color: white;
     margin-bottom: 30px;
@@ -50,7 +50,7 @@
 }
 
 .aboutComponent p span {
-    color: #154C46;
+    color: #004659;
     font-weight: 600;
 }
 

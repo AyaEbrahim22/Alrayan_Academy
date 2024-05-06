@@ -16,7 +16,7 @@ export default function Intro() {
         <div className={`col-md-3`}>
             <div className={`${style.introCard} d-flex flex-column border border-3 border-warning rounded-1 py-4 px-3`}>
               <div className='d-flex align-items-center justify-content-center'>
-                <i className="fa-solid fa-user-clock fa-2xl text-success me-2 align-self-start pt-4"></i>
+                <i className="fa-solid fa-user-clock fa-2xl text-secondary me-2 align-self-start pt-4"></i>
                 <div><h4 className='text-light'>Classes Around The Clock</h4>
                   <p className='text-light'>Take classes at any time that<br /> suit you</p></div>
               </div>

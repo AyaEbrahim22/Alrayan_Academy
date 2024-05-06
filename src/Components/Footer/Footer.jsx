@@ -1,5 +1,5 @@
 import style from './Footer.module.css'
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/RayanBGLogo.png'
 import { Fade } from 'react-awesome-reveal'
 import { Link } from 'react-router-dom'
 
@@ -16,7 +16,7 @@ export default function Footer() {
             <div className='col-md-3'>
               <div className='d-flex justify-content-center flex-column'>
                 <img src={logo} alt='logo' className='w-25' />
-                <p className='text-light mt-2'>Learn online Quran Courses and Islamic Education From The Comfort Of Your Home With Risalah-Academy, Your Spiritual Journey Starts Here!!!</p>
+                <p className='text-light mt-2'>Learn online Quran Courses and Islamic Education From The Comfort Of Your Home With Al Rayan Academy, Your Spiritual Journey Starts Here!!!</p>
                 <h5 className='text-center text-light mb-0'>Social Media</h5>
                 <hr className='text-light mt-2' />
 
@@ -54,7 +54,7 @@ export default function Footer() {
           </div>
         </Fade>
 
-        <p className={`${style.textColor} text-white mb-0`}>Copyright 2024 © RISALAH Academy</p>
+        <p className={`${style.textColor} text-white mb-0`}>Copyright 2024 © Al Rayan Academy</p>
       </div>
 
     </div>

@@ -10,7 +10,7 @@
 }
 .contactCard h3 {
     font-size: 37px;
-    color: #154C46;
+    color: #004659;
 }
 
 .contactSection h3 {
@@ -45,15 +45,15 @@
     padding: 7px 15px;
     font-size: 18px;
     margin-top: 15px;
-    background-color: #154C46;
+    background-color: #004659;
     border: 2px solid transparent;
     color: white;
     transition: all 0.3s ease-in-out;
 }
 .messageBtn:hover {
     background-color: transparent;
-    border: 2px solid #154C46;
-    color: #154C46;
+    border: 2px solid #004659;
+    color: #004659;
 }
 .contactMap h3 {
     font-size: 40px;

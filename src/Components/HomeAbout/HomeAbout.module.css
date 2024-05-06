@@ -3,7 +3,7 @@
     margin-top: 20px;
 }
 .headingADesign {
-    background-color: #154c46dc;
+    background-color:  #00617b;
     position: relative;
     width: 165px;
     height: 2px;
@@ -18,7 +18,7 @@
     position: absolute;
     top: -8px;
     left: 50px;
-    background-color: #154c46dc;
+    background-color: #00617b;
 }
 .headingADesign:before {
     content: '';
@@ -27,7 +27,7 @@
     position: absolute;
     top: 8px;
     left: 50px;
-    background-color: #154c46dc;
+    background-color: #00617b;
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {

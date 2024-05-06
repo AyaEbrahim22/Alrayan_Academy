@@ -1,6 +1,6 @@
 .homePackages{
     margin-block: 60px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.422) 0% 100%), url(../../assets/images/PackagesBg.jpg);
+    background-image:linear-gradient(#00303ecb 0% 100%), url(../../assets/images/PackagesBG.jpg);
     background-size: cover;
     background-position: center;
     padding: 100px;
@@ -20,7 +20,7 @@
 }
 .price{
     font-size: 70px;
-    color: #154C46;
+    color: #004659;
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px){

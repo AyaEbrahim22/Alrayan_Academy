@@ -11,7 +11,7 @@
     color: rgb(196 196 121);
 }
 .headingVDesign {
-    background-color: #154c46dc;
+    background-color: #004659;
     position: relative;
     width: 165px;
     height: 1px;
@@ -25,7 +25,7 @@
     position: absolute;
     top: -8px;
     left: 50px;
-    background-color: #154c46dc;
+    background-color: #004659;
 }
 .headingVDesign:before {
     content: '';
@@ -34,18 +34,18 @@
     position: absolute;
     top: 8px;
     left: 50px;
-    background-color: #154c46dc;
+    background-color: #004659;
 }
 .translateBtn {
     padding: 5px 45px;
     background-color: transparent;
-    border: 2px solid #154c46dc;
+    border: 2px solid #004659dd;
     transition: all 0.3s ease-in-out;
     font-size: 20px;
     font-weight: 600;
 }
 .translateBtn:hover {
-    background-color: #154c46dc;
+    background-color:  #004659dd;
     border: 2px solid transparent;
     transform: translateY(8px);
     color: #EEEEEE;
@@ -77,15 +77,15 @@
     padding: 7px 15px;
     font-size: 18px;
     margin-top: 15px;
-    background-color: #154C46;
+    background-color: #004659;
     border: 2px solid transparent;
     color: white;
     transition: all 0.3s ease-in-out;
 }
 .messageBtn:hover {
     background-color: transparent;
-    border: 2px solid #154C46;
-    color: #154C46;
+    border: 2px solid #004659;
+    color: #004659;
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {

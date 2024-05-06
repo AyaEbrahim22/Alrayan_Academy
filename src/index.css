@@ -7,11 +7,11 @@
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #154C46;
+  background: #004659;
   border-radius: 5px;
 }
 ::selection {
-  color: #154C46;
+  color: #004659;
   background: #eeece9de;
 }
 body{
@@ -47,7 +47,7 @@ ul{
   padding: 0;
 }
 .mainColor{
- color: #154C46; 
+ color: #004659; 
 }
 .fa-location-dot{
   position: relative;

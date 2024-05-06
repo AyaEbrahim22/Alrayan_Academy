@@ -2,14 +2,13 @@
     width: 100%;
     padding-block: 30px;
     min-height: 500px;
-    background-color: #154C46;
-    background-image: linear-gradient(rgba(0, 69, 52, 0.9) 0% 100%), url(../../assets/images/VBG.jpg);
+    background-image: linear-gradient(#004659ea 0% 100%), url(../../assets/images/VBG.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
 .headingADesign {
-    background-color: #b6b300dc;
+    background-color: #e3d8c1d0;
     position: relative;
     width: 165px;
     height: 2px;
@@ -24,7 +23,7 @@
     position: absolute;
     top: -8px;
     left: 50px;
-    background-color: #b6b300dc;
+    background-color: #e3d8c1d0;
 }
 .headingADesign:before {
     content: '';
@@ -33,7 +32,7 @@
     position: absolute;
     top: 8px;
     left: 50px;
-    background-color: #b6b300dc;
+    background-color: #e3d8c1d0;
 }
 .carousel {
     margin-inline: 15px;
@@ -52,7 +51,7 @@
 }
 .feedbackPara {
     padding: 5px;
-    background-color: #e3d8c1;
+    background-color: #cac5bc;
     margin: 10px 10px 50px 10px;
     text-align: center;
     position: relative;

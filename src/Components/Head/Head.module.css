@@ -1,7 +1,7 @@
 .headComponent {
     width: 100%;
     height: calc(100vh - 65px);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.63) 0% 100%), url(../../assets/images/HomeBg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.511) 0% 100%), url(../../assets/images/HeadBG.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -12,7 +12,7 @@
     text-align: center;
 }
 .contactBtn {
-    background-color: #154C46;
+    background-color: #004659;
     border: 2px solid transparent;
     color: white;
     transition: all 0.3s ease-in-out;
@@ -20,21 +20,21 @@
     font-size: 20px;
 }
 .contactBtn:hover {
-    background-color: #154c4621;
-    border: 2px solid #154C46;
+    background-color: #0046591e;
+    border: 2px solid #004659;
     color: white;
     transform: translateY(8px);
 }
 .aboutBtn {
-    border: 2px solid #154C46;
+    border: 2px solid #004659;
     color: white;
     transition: all 0.3s ease-in-out;
-    background-color: #154c4621;
+    background-color: #0046591e;
     padding: 8px 12px;
     font-size: 20px;
 }
 .aboutBtn:hover {
-    background-color: #154C46;
+    background-color: #004659;
     border: 2px solid transparent;
     color: white;
     transform: translateY(8px);

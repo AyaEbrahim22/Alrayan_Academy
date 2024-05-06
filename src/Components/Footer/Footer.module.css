@@ -1,6 +1,6 @@
 .footer {
-    background-color: #154C46;
-    box-shadow: 0 0 6px 8px #154c465e;
+    background-color: #004659;
+    box-shadow: 0 0 6px 8px #00465957;
     width: 100%;
     padding-block: 15px;
 }
@@ -45,5 +45,5 @@
     color: white;
 }
 .commIcons li i {
-    color: rgb(196 196 121);
+    color: #cac5bc;
 }
