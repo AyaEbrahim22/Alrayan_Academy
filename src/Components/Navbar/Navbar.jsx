@@ -1,14 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import style from './Navbar.module.css'
 import logo from '../../assets/images/RayanBGLogo.png'
 import { Slide } from "react-awesome-reveal";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Navbar() {
 
-    return <>
+    const [token, setToken] = useState('')
 
-        <nav className="navbar navbar-expand-lg p-2">
+
+    const location = useLocation();
+
+    const { pathname } = location;
+   
+
+ useEffect(() => {
+  
+    if( localStorage.getItem('AdminToken') ){
+        setToken(localStorage.getItem('AdminToken')) 
+      }
+ }, [])
+ 
+ 
+ return <>
+
+ {pathname === '/dashboard'? ' ' : <nav className="navbar navbar-expand-lg p-2">
             <div className="container">
                 <Slide direction='left'>
                     <Link className="navbar-brand" to={"/"}>
@@ -70,7 +86,10 @@ export default function Navbar() {
                     </Slide>
                 </div>
             </div>
-        </nav>
+        </nav>  
+}
+
+
 
     </>
 }

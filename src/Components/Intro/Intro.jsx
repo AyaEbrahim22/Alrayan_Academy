@@ -18,7 +18,7 @@ export default function Intro() {
               <div className='d-flex align-items-center justify-content-center'>
                 <i className="fa-solid fa-user-clock fa-2xl text-secondary me-2 align-self-start pt-4"></i>
                 <div><h4 className='text-light'>Classes Around The Clock</h4>
-                  <p className='text-light'>Take classes at any time that<br /> suit you</p></div>
+                  <p className='text-light'>Take classes at any time <br/> that suit you</p></div>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function Intro() {
                 <i className="fa-solid fa-certificate fa-2xl text-warning me-2 align-self-start pt-4"></i>
 
                 <div><h4 className='text-light'>Completion Certificates</h4>
-                  <p className='text-light'>Get a certificate after completing <br /> the course</p></div>
+                  <p className='text-light'>Get a certificate after completing the course</p></div>
               </div>
             </div>
           </div>

@@ -1,15 +1,29 @@
 import style from './Footer.module.css'
 import logo from '../../assets/images/RayanBGLogo.png'
 import { Fade } from 'react-awesome-reveal'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 
 
 export default function Footer() {
 
+  const [token, setToken] = useState('')
+
+    const location = useLocation();
+
+    const { pathname } = location;
+   
+
+ useEffect(() => {
+  
+    if( localStorage.getItem('AdminToken') ){
+        setToken(localStorage.getItem('AdminToken')) 
+      }
+ }, [])
 
   return <>
 
-    <div className={style.footer}>
+  {pathname === '/dashboard'? '' : <div className={style.footer}>
       <div className='container'>
         <Fade>
           <div className='row align-items-center justify-content-center g-4'>
@@ -57,8 +71,7 @@ export default function Footer() {
         <p className={`${style.textColor} text-white mb-0`}>Copyright 2024 © Al Rayan Academy</p>
       </div>
 
-    </div>
-
+    </div> }
 
   </>
 }

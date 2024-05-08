@@ -6,10 +6,18 @@ import HomeDemo from '../HomeDemo/HomeDemo'
 import HomeCourses from '../HomeCourses/HomeCourses'
 import HomeFeedback from '../HomeFeedback/HomeFeedback'
 import HomePackages from '../HomePackages/HomePackages'
+import { useEffect } from 'react'
 
 
 export default function Home() {
  
+  
+ useEffect(() => {
+  
+  if( localStorage.getItem('AdminToken') ){
+      localStorage.removeItem('AdminToken')
+    }
+}, [])
  
  return <>
 
