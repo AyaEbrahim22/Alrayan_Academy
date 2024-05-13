@@ -12,11 +12,11 @@ export default function Login() {
   const [error, setError] = useState(null)
 
   async function loginSubmit(values){
-   let {data} =  await axios.post('https://alrayan.online-academy.site/api/dashboard/login', values)
+   let {data} =  await axios.post('https://alrayan-backend.online-academy.site/api/dashboard/login', values)
    .catch( (err) => setError(err.response.data.message))
    console.log(data);
    console.log(formik);
-   if(data.message == 'success'){
+   if(data.message === 'success'){
     navigate('/dashboard')
     localStorage.setItem('AdminToken', data.token)
    }

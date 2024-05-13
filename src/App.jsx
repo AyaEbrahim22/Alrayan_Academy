@@ -9,7 +9,7 @@ import HomeDemo from './Components/HomeDemo/HomeDemo';
 import Login from './Components/Login/Login';
 import Dashboard from './Components/Dashboard/Dashboard';
 import ProtectedRoute from './Components/ProtectedRoute/ProtectedRoute';
-
+import { Toaster } from 'react-hot-toast';
 
 export default function App() {
  
@@ -29,7 +29,7 @@ export default function App() {
  return <>
 
    <RouterProvider router={routers}></RouterProvider>
-
+   <Toaster/>
    
   </>
 }
