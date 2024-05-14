@@ -15,12 +15,15 @@
   background: #eeece9de;
 }
 
-.option:hover{
- background-color: #004659 !important;
+nav .navbar-toggler {
+  color: #ebe6dcde !important;
+  border: 1px solid #ebe6dcde;
+  background-color: #ebe6dcde;
 }
-.highlightOption{
-  background-color: #004659 !important;
- }
+nav button .navbar-toggler-icon{
+  color: #ebe6dcde !important;
+}
+
 body{
   font-family: "Truculenta", sans-serif;
 }
