@@ -16,8 +16,13 @@ import img12 from '../../assets/images/Islamic Icon.png'
 
 import CountUp from 'react-countup';
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 export default function About() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
 
 
   return <>

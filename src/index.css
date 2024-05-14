@@ -14,6 +14,7 @@
   color: #004659;
   background: #eeece9de;
 }
+
 .option:hover{
  background-color: #004659 !important;
 }
@@ -22,8 +23,6 @@
  }
 body{
   font-family: "Truculenta", sans-serif;
-
-  /* font-family: "Poppins", sans-serif; */
 }
 .slick-slider{
   height: 100%;

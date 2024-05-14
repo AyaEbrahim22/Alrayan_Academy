@@ -37,7 +37,7 @@ export default function HomeDemo() {
       const { data } = await axios.post('https://alrayan-backend.online-academy.site/api/dashboard/add-enroll', values);
       console.log(data);
       clearForm()
-      if (data.message == 'Enroll added successfully') {
+      if (data.message === 'Enroll added successfully') {
         toast.success(`Your data has been sent successfully and We will contact you as soon as possible`, {
           duration: 10000,
           position: 'bottom-right',

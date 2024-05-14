@@ -8,7 +8,6 @@ import HomeFeedback from '../HomeFeedback/HomeFeedback'
 import HomePackages from '../HomePackages/HomePackages'
 import { useEffect } from 'react'
 
-
 export default function Home() {
  
   
@@ -17,6 +16,7 @@ export default function Home() {
   if( localStorage.getItem('AdminToken') ){
       localStorage.removeItem('AdminToken')
     }
+      window.scrollTo(0, 0)
 }, [])
  
  return <>
