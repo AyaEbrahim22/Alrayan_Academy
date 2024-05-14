@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Alrayan_Academy/static/css/main.5801c1d9.css",
+    "main.css": "/Alrayan_Academy/static/css/main.aad9b229.css",
     "main.js": "/Alrayan_Academy/static/js/main.14993741.js",
     "static/js/453.e7dace99.chunk.js": "/Alrayan_Academy/static/js/453.e7dace99.chunk.js",
     "static/media/Quran.png": "/Alrayan_Academy/static/media/Quran.fc297312ae913ad714c7.png",
@@ -30,12 +30,12 @@
     "static/media/slick.ttf": "/Alrayan_Academy/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Alrayan_Academy/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Alrayan_Academy/index.html",
-    "main.5801c1d9.css.map": "/Alrayan_Academy/static/css/main.5801c1d9.css.map",
+    "main.aad9b229.css.map": "/Alrayan_Academy/static/css/main.aad9b229.css.map",
     "main.14993741.js.map": "/Alrayan_Academy/static/js/main.14993741.js.map",
     "453.e7dace99.chunk.js.map": "/Alrayan_Academy/static/js/453.e7dace99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5801c1d9.css",
+    "static/css/main.aad9b229.css",
     "static/js/main.14993741.js"
   ]
 }
