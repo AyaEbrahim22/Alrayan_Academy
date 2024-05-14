@@ -1,7 +1,7 @@
 .headComponent {
     width: 100%;
     height: calc(100vh - 65px);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.511) 0% 100%), url(../../assets/images/HeadBG.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.511) 0% 100%), url(../../assets/images/HeadBackG.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
