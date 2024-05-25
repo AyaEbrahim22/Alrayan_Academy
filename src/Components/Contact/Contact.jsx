@@ -14,7 +14,7 @@ export default function Contact() {
                     <div className='col-md-4'>
                         <div className={style.contactCard}>
                             <h3>Email Us</h3>
-                            <p className='fs-5 text-secondary'>risalahakademy@gmail.com</p>
+                            <p className='fs-5 text-secondary'>alrayanakademy@gmail.com</p>
                         </div>
                     </div>
 
@@ -28,7 +28,7 @@ export default function Contact() {
                     <div className='col-md-4'>
                         <div className={style.contactCard}>
                             <h3>Our Office</h3>
-                            <p className='fs-5 text-secondary'>Risalah Academy EG</p>
+                            <p className='fs-5 text-secondary'>Al rayan academy EG</p>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export default function Contact() {
                             <form>
                                 <div>
                                     <label className='w-100 fw-bold fs-5'>Name:</label>
-                                    <div className='row'>
+                                    <div className='row gy-4'>
                                         <div className='col-md-6'>
 
                                             <input type='text' name='' placeholder='First' />

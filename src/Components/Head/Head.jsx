@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import style from './Head.module.css'
 import { Fade, Slide } from 'react-awesome-reveal'
-import { useEffect, useState } from 'react'
 
 export default function Head() {
 

@@ -39,7 +39,7 @@ export default function HomeDemo() {
       clearForm()
       if (data.message === 'Enroll added successfully') {
         toast.success(`Your data has been sent successfully and We will contact you as soon as possible`, {
-          duration: 10000,
+          duration: 8000,
           position: 'bottom-right',
           style: { fontWeight: 'bold',
                    marginBottom: '70px'

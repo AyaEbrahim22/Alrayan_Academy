@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import style from './Navbar.module.css'
 import logo from '../../assets/images/RayanBGLogo.png'
 import { Slide } from "react-awesome-reveal";
-import { Link, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 
 export default function Navbar() {
 
@@ -41,15 +41,15 @@ export default function Navbar() {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                             <li className="nav-item">
-                                <Link className={`${style.navLink} nav-link`} aria-current="page" to={"/"}>Home</Link>
+                                <NavLink className={`${style.navLink} nav-link`} aria-current="page" to={"/"}>Home</NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <Link className={`${style.navLink} nav-link`} to={'about'}>About</Link>    
+                                <NavLink className={`${style.navLink} nav-link`} to={'about'}>About</NavLink>    
                             </li>
 
                             <li className="nav-item">
-                                <Link className={`${style.navLink} nav-link`} to={'contact'}>Contact</Link>    
+                                <NavLink className={`${style.navLink} nav-link`} to={'contact'}>Contact</NavLink>    
                             </li>
 
                         </ul>

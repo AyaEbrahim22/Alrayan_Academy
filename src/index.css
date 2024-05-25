@@ -11,8 +11,15 @@
   border-radius: 5px;
 }
 ::selection {
-  color: #004659;
-  background: #eeece9de;
+  color: #eeece9de;
+  background:  #004659;
+}
+
+nav .active{
+color: #004659;
+background-color: #c9c9c9;
+padding: 5px;
+border-radius: 3px;
 }
 
 nav .navbar-toggler {

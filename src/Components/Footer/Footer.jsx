@@ -58,7 +58,7 @@ export default function Footer() {
                 <div className={style.commIcons}>
                   <ul>
                     <li role='button'><i className="fa-solid fa-location-dot fa-xl me-2"></i> Nasr City, Cairo, Egypt</li>
-                    <li role='button'><i className="fa-solid fa-envelope fa-xl me-2"></i> risalahakademy@gmail.com</li>
+                    <li role='button'><i className="fa-solid fa-envelope fa-xl me-2"></i> alrayanakademy@gmail.com</li>
                     <li role='button'><i className="fa-solid fa-phone fa-xl me-2"></i> (+20) 1557601371</li>
 
                   </ul>
